@@ -1,0 +1,58 @@
+body {
+    background-color: #CDFCFF;
+}
+
+#headerpic {
+display: block;
+margin: 0px auto;
+height: 500px;
+width: 100%;
+
+}
+
+#MainTitle{
+ /* !--https://www.w3schools.com/howto/howto_css_image_text.asp */
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  color: blue;
+  text-shadow: 2px 2px #ff0000;
+}
+
+#call1{
+    display: block;
+    /* float: left; */
+    margin-right: 10px;
+    width: 30%;
+}
+
+#call2{
+    display: block;
+    /* float: center; */
+    width: 30%;
+    
+    
+}
+#call3{
+    display: block;
+    /* float: right; */
+}
+article{
+    border: 1px solid black;
+}
+
+h1{
+    font-size: 100px;
+   text-align: center;
+   color: blue;
+   text-decoration: underline;
+
+}
+h3{
+    font-size: 70px;
+   text-align: center;
+   color: blue;
+
+}
