@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="js/main.js">   </script>
 </head>
 <body>
     
@@ -44,41 +45,44 @@
             </h1>
             <h3 id="demo">
                 These are the steps you can take right now to help the whales.
-                <script src="js/prompt.js"></script> 
+                 <script>changeColor()</script> 
             </h3>
             <h6 id ="message">
-            <script src="js/age.js"></script> 
+            <script>document.write(getAge())</script>  
             </h6>
-            
-        <div>
+            <p id ="hm">
+                 <script>document.write(countWhales()) </script> <!--counting whales -->
+            </p>
+             
+        <div> 
             <article id="article1">
                  <img id="call1" src="https://upload.wikimedia.org/wikipedia/commons/f/f9/091201_south_georgia_orca_5227_%284173390858%29.jpg">
-                 <h5>
+                 <h5 class="lessonsheader">
                     Remind your parents not to wash your car in the driveway.
                 </h5>
                
                 
-                <p>
+                <p class="lessons">
                     The chemicals used in washing detergents go down the storm drains, make their way to the ocean and kill fish, disturbing the delicate nature balance. 
                 </p>
 
             </article>
             <article id="article2">
                 <img id="call2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Killerwhales_jumping.jpg/1920px-Killerwhales_jumping.jpg" >
-                <h5>
+                <h5 class="lessonsheader">
                     Don't eat chinook salmon.
                 </h5>
-                <p>
+                <p class="lessons">
                     Chinook salmon is the primary source of food for the southern resident killer whales. The number of chinook salmon has been declining. It takes a lot of time for the numbers to go back up. 
                </p>
             
             </article>
             <article id="article3">
                 <img id="call3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Orca_pod_southern_residents.jpg/220px-Orca_pod_southern_residents.jpg" alt="">
-                <h5>
+                <h5 id="lesheader">
                     Choose non-chemical elements for your yard.
                 </h5>
-                <p>
+                <p class="lessons">
                     Avoid pesticides and chemical fertilizers. Remember that drain water will eventually find its way into the ocean. There are better alternatives to yard care.
                 </p>
             </article>
@@ -123,8 +127,9 @@
             
 
         </footer>
-        <script src="js/confirm.js"></script>
-    
+        <p>
+        <script>agreeToProceed()</script>
+        </p>
 </body>
 
 </html>

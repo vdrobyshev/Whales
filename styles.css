@@ -1,6 +1,6 @@
-body {
+ body {
     background-color: #CDFCFF;
-}
+} 
 
 #headerpic {
 display: block;
@@ -22,29 +22,40 @@ width: 100%;
 }
 
 #call1{
-    display: block;
+
+    position: relative;
+    left: 200px;
+    /* display: block; */
     /* float: left; */
     margin-right: 10px;
     width: 30%;
-    height: 350px;
+    height: 210px;
 }
 
 #call2{
-    display: block;
+    position: relative;
+    left: 200px;
+    /* display: block; */
     /* float: center; */
     width: 30%;
-    height: 30%;
+    height: 27.5%;
     
 }
 #call3{
-    display: block;
+    position: relative;
+    left: 200px;
+    /* display: block; */
     /* float: left; */
     margin-right: 10px;
     width: 30%;
     height: 30%;
 }
 article{
+    display: inline-block;
     border: 1px solid black;
+    height: 700px;
+    width: 600px;
+    padding: 10px;
 }
 
 h1{
@@ -86,6 +97,48 @@ h5{
     font-size: 40px;
 }
 
-p{
+
+.lessons{
+    font-size: 25;
+    margin: 120px;
+    padding-left: -100px;
     font-size: 20px;
+}
+
+.lessonsheader{
+    position: relative;
+    margin: 20px;
+    padding: 5px;
+    width: 530px;
+    height: 5px;
+}
+
+div{
+    display: inline-block;
+}
+
+#lesheader{
+    position: relative;
+    margin: 20px;
+    padding: 5px;
+    width: 530px;
+    height: 5px;
+}
+
+#ForLoop{
+    position: relative;
+    left: 50px;
+    /* display: block; */
+    /* float: left; */
+    margin-right: 10px;
+    width: 20%;
+    height: 20px;
+}
+
+#hm{
+    /* position: relative; */
+    /* margin-right: 10px; */
+    width: 110px;
+    height: 110px;
+     
 }
