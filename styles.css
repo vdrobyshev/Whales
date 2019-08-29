@@ -26,18 +26,22 @@ width: 100%;
     /* float: left; */
     margin-right: 10px;
     width: 30%;
+    height: 350px;
 }
 
 #call2{
     display: block;
     /* float: center; */
     width: 30%;
-    
+    height: 30%;
     
 }
 #call3{
     display: block;
-    /* float: right; */
+    /* float: left; */
+    margin-right: 10px;
+    width: 30%;
+    height: 30%;
 }
 article{
     border: 1px solid black;
@@ -50,9 +54,38 @@ h1{
    text-decoration: underline;
 
 }
-h3{
-    font-size: 70px;
+#demo{
+   font-size: 70px;
    text-align: center;
    color: blue;
 
+}
+#message{
+    text-align: right;
+    color: blue;
+    font-size: 30px;
+}
+
+ li {
+   /* display: inline-block;    */
+   list-style-type: none;
+   font-size: 30px; 
+   color: blue;
+  float: right;
+  padding: 1%;
+  
+ }  
+
+/* #article1{
+    width: 10%;
+    align-items: center;
+    float: left;
+} */
+
+h5{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
 }
