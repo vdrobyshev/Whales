@@ -23,32 +23,27 @@ width: 100%;
 
 #call1{
 
-    position: relative;
-    left: 200px;
-    /* display: block; */
-    /* float: left; */
-    margin-right: 10px;
-    width: 30%;
-    height: 210px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 233px;
 }
 
 #call2{
-    position: relative;
-    left: 200px;
-    /* display: block; */
-    /* float: center; */
-    width: 30%;
-    height: 27.5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 210px;
     
 }
 #call3{
-    position: relative;
-    left: 200px;
-    /* display: block; */
-    /* float: left; */
-    margin-right: 10px;
-    width: 30%;
-    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 210px;
 }
 article{
     display: inline-block;
@@ -56,6 +51,7 @@ article{
     height: 700px;
     width: 600px;
     padding: 10px;
+    background-color: aqua;
 }
 
 h1{
@@ -65,7 +61,7 @@ h1{
    text-decoration: underline;
 
 }
-#demo{
+#color{
    font-size: 70px;
    text-align: center;
    color: blue;
@@ -87,11 +83,6 @@ h1{
   
  }  
 
-/* #article1{
-    width: 10%;
-    align-items: center;
-    float: left;
-} */
 
 h5{
     font-size: 40px;
@@ -99,31 +90,50 @@ h5{
 
 
 .lessons{
-    font-size: 25;
-    margin: 120px;
-    padding-left: -100px;
+    text-align: justify;
     font-size: 20px;
+    position: relative;
+    bottom: -173px;
 }
+
+#lessons1{
+
+        text-align: justify;
+        font-size: 20px;
+        position: relative;
+        bottom: -150px;
+    }
 
 .lessonsheader{
     position: relative;
     margin: 20px;
-    padding: 5px;
+    padding: 10px;
     width: 530px;
     height: 5px;
+}
+#lessonsheader2{
+        
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+    width: 530px;
+    height: 5px;
+    top: 25px;
+    text-align: center;
+}
+#lessonsheader3{
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+    width: 530px;
+    height: 5px;
+     top: 25px;   
 }
 
 div{
     display: inline-block;
 }
 
-#lesheader{
-    position: relative;
-    margin: 20px;
-    padding: 5px;
-    width: 530px;
-    height: 5px;
-}
 
 #ForLoop{
     position: relative;
@@ -136,9 +146,15 @@ div{
 }
 
 #hm{
-    /* position: relative; */
+     position: relative; 
     /* margin-right: 10px; */
     width: 110px;
     height: 110px;
+    top: -80px;
+   
      
+}
+#saved{
+    position: relative;
+    bottom: 40px;
 }

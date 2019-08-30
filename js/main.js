@@ -1,5 +1,5 @@
 
-function agreeToProceed(){
+/*function agreeToProceed(){
 
 
 if (confirm("You agree to be a part of the solution")) {
@@ -12,21 +12,20 @@ if (confirm("You agree to be a part of the solution")) {
 
 }
 
-
-
+*/
 function changeColor() { 
 
 
     var colors = prompt("Please enter a color.");
     
-    var x = document.getElementById("demo");
+    var x = document.getElementById("color");
     
     x.style.color = colors;     
 
                 
 }
 
-
+/*
 function getAge(){
 
     var age = prompt("How old are you?");
@@ -42,7 +41,7 @@ function getAge(){
     }
     return message;
 }
-
+*/
 
 function countWhales(){
     var quantity=prompt ("How many whales would you like to save today?");
